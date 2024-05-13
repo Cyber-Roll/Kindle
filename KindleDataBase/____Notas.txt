@@ -1,0 +1,32 @@
+Última actualización: 
+
+5/9/2022, crear las claves necesarias LibrosKeys y modificar las notas con esa clave
+Al hacer la importación a Access indicar que tiene clave y elegir Libro 
+
+Fecha		File					BaseDeDatos
+16.03.2022	My Clippings, 20220616.txt		
+10.03.2022	My Clippings, hasta 10.Mar.2022.txt	KindleNotas-220310.accdb
+04.04.2022	MyClippingsBis220404.txt		KindleNotas-220405.accdb
+
+Base de datos de trabajo: KindleNotas.accdb (siempre es copia de la última actualización)
+
+
+******************************************************************
+Para importar a Excel usar: 65001 Unicode (UTF-8), Æ
+Mejor importar directamente a Access, usando los mismos parámetros
+******************************************************************
+
+1. Todas las notas creadas por Kindle y procesadas hasta archivo excel estan en "TodoMaterialAntiguo, bis220227.rar"
+   Este solo sirve como backup en caso de algún problema futor.
+
+2. SOLUCIONADO!!!
+   Access corta la información al importar a los campos memo (o como se llamen ahora).
+   Se debe tomar como referencia el archivo excel correspondiente.
+
+3. El siguiente archivo con notas será a partir de la fecha 27.02.22 (si existe alguna nota a partir de esa fecha)
+   Usar el programa de C# (Paso 1) para la limpieza y luego el otro para generar archivo .txt con notas procesadas
+
+
+
+
+
